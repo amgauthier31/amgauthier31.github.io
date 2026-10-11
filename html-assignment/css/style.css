@@ -41,7 +41,7 @@ footer {
 
 /* ===== nth-child: background on odd hobby items ===== */
 .hobbies li:nth-child(odd) {
-  background-color: #fbe3e8;
+  background-color: #f4b4c2;
 }
 
 /* ===== Navigation ===== */
