@@ -4,6 +4,8 @@ body {
   font-size: 18px;
   margin: 0;
   line-height: 1.5;
+  background-color: #fbf7f3;
+  color: #4a3a35;
 }
 
 main {
@@ -13,14 +15,14 @@ main {
 /* ===== Select multiple elements: header and footer ===== */
 header,
 footer {
-  background-color: #2c3e50;
-  color: #ffffff;
+  background-color: #f1e3d8;
+  color: #5a3e36;
   padding: 20px;
 }
 
 /* ===== Class selector: main heading ===== */
 .site-title {
-  color: #f1c40f;
+  color: #b03a52;
 }
 
 /* ===== Id selector: image box-shadow ===== */
@@ -38,7 +40,7 @@ footer {
 
 /* ===== nth-child: background on odd hobby items ===== */
 .hobbies li:nth-child(odd) {
-  background-color: #ecf0f1;
+  background-color: #fbe3e8;
 }
 
 /* ===== Navigation ===== */
@@ -55,9 +57,9 @@ nav ul {
 /* Remove underline, add background and border to links */
 nav a {
   text-decoration: none;
-  background-color: #34495e;
-  color: #ffffff;
-  border: 2px solid #f1c40f;
+  background-color: #f2c4ce;
+  color: #4a2a33;
+  border: 2px solid #dd667e;
   border-radius: 4px;
   padding: 6px 14px;
   display: inline-block;
@@ -66,6 +68,6 @@ nav a {
 /* Change background on hover or focus */
 nav a:hover,
 nav a:focus {
-  background-color: #f1c40f;
-  color: #2c3e50;
+  background-color: #ac2225;
+  color: #ffffff;
 }
