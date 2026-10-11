@@ -36,6 +36,7 @@ footer {
 /* ===== Hobby list: square bullets ===== */
 .hobbies {
   list-style-type: square;
+  padding-left: 40px;
 }
 
 /* ===== nth-child: background on odd hobby items ===== */
