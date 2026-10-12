@@ -23,6 +23,8 @@ footer {
 /* ===== Class selector: main heading ===== */
 .site-title {
   color: #b03a52;
+  font-size: 56px;   /* bigger name title - change this number to adjust */
+  margin: 0;
 }
 
 /* ===== Id selector: image box-shadow ===== */
