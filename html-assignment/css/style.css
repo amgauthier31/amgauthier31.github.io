@@ -1,7 +1,7 @@
 /* ===== Inheritance: font family and size for the whole page ===== */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   line-height: 1.5;
   background-color: #f3eee9;
@@ -23,14 +23,16 @@ footer {
 /* ===== Class selector: main heading ===== */
 .site-title {
   color: #b03a52;
-  font-size: 56px;   /* bigger name title - change this number to adjust */
+  font-size: 56px;   /* bigger name title  */
   margin: 0;
+  text-align: center;   /* centres your name */
 }
 
 /* ===== Id selector: image box-shadow ===== */
 /* 0 horizontal, 0 vertical, 2px blur, 1px spread, black */
 #my-image {
   box-shadow: 0 0 2px 1px black;
+   width: 350px;   /* smaller photo  */
   max-width: 100%;
   height: auto;
 }
