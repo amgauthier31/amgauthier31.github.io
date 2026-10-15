@@ -1,4 +1,4 @@
-/* ===== Inheritance: font family and size for the whole page ===== */
+/*  Inheritance: font family and size for the whole page  */
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -12,7 +12,7 @@ main {
   padding: 20px;
 }
 
-/* ===== Select multiple elements: header and footer ===== */
+/*  Select multiple elements: header and footer  */
 header,
 footer {
   background-color: #f1e3d8;
@@ -20,7 +20,7 @@ footer {
   padding: 20px;
 }
 
-/* ===== Class selector: main heading ===== */
+/*  Class selector: main heading  */
 .site-title {
   color: #b03a52;
   font-size: 56px;   /* bigger name title  */
@@ -28,7 +28,7 @@ footer {
   text-align: center;   /* centres your name */
 }
 
-/* ===== Id selector: image box-shadow ===== */
+/*  Id selector: image box-shadow  */
 /* 0 horizontal, 0 vertical, 2px blur, 1px spread, black */
 #my-image {
   box-shadow: 0 0 2px 1px black;
@@ -37,18 +37,19 @@ footer {
   height: auto;
 }
 
-/* ===== Hobby list: square bullets ===== */
+/*  Hobby list: square bullets  */
 .hobbies {
   list-style-type: square;
   padding-left: 40px;
 }
 
-/* ===== nth-child: background on odd hobby items ===== */
+/*  nth-child: background on odd hobby items  */
 .hobbies li:nth-child(odd) {
   background-color: #f4b4c2;
 }
 
-/* ===== Navigation ===== */
+
+/*  Navigation  */
 
 /* Remove bullets from the list inside nav */
 nav ul {
