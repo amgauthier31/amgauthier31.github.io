@@ -1,8 +1,16 @@
-body{
-    background0color: teal;
-    
+/* Midterm - Fall Protein Muffins */
 
+/* style sheet */
+* {
+    box-sizing: border-box;  
 }
 
-/* center */
-
+/* outside the page */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3b2314;
+    background-color: #e76f51; /* backup colour if gradients don't load */
+    background-image: linear-gradient(135deg, #f4a259 0%, #e76f51 50%, #9c3d2c 100%);
+    background-attachment: fixed; /* gradient stays put while scrolling */
+}
