@@ -52,32 +52,38 @@
                 </ul>
             </section>  
              <!-- FORM -->
-              <section id="contact" class="contact">
+             <section id="contact" class="contact">
                 <h2>Contact for more recipes</h2>
 
                 <form action="#" method="post">
                     <label for="name">Amelie Gauthier</label>
                     <input type="text" id="name" name="name" required>
 
-                    <label for="email">Your Email</label>
+                    <label for="email">gaut0570@algonquinlive.com</label>
                     <input type="email" id="email" name="email" required>
 
-                    <label for="recipe-type">What recipes do you want?</label>
-                    <select id="recipe-type" name="recipe-type">
-                        <option value="breakfast">High-protein breakfasts</option>
-                        <option value="snacks">Pre-workout snacks</option>
-                        <option value="post-workout">Post-workout meals</option>
-                        <option value="desserts">Healthy desserts</option>
-                    </select>
-
-                    <label for="message">Anything else?</label>
+                    <label for="message">Your Message</label>
                     <textarea id="message" name="message" rows="5"></textarea>
 
-                    <input type="submit" value="Submit">
+                    <fieldset class="subscribe">
+                        <legend>Would you like to subscribe for biweekly recipes?</legend>
+
+                        <label for="sub-yes">Yes</label>
+                        <input type="radio" id="sub-yes" name="subscribe" value="yes">
+
+                        <label for="sub-no">No</label>
+                        <input type="radio" id="sub-no" name="subscribe" value="no">
+
+                        <label for="sub-maybe">Maybe</label>
+                        <input type="radio" id="sub-maybe" name="subscribe" value="maybe">
+                    </fieldset>
+
+                    <input type="submit" value="Send">
                 </form>
             </section>
-        </main>
 
+        </main>
+      </div>
 </body>
 
 </html>
