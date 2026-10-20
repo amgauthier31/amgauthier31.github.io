@@ -135,9 +135,30 @@ form {
     background-color: var(--peach);
 }
 
-/* labels sit  */
+/* labels  */
 label {
     display: block;
     margin: 15px 0 8px;
     font-size: 17px;
+}
+
+/* white text boxes */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #dddddd;
+    font: inherit;
+}
+
+/* subscribe */
+fieldset {
+    margin: 20px 0 0;
+    padding: 0;
+    border: none;
+}
+
+legend {
+    font-size: 20px;
 }
