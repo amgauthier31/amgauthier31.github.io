@@ -12,5 +12,16 @@ body {
     color: #3b2314;
     background-color: #e76f51; /* backup colour if gradients don't load */
     background-image: linear-gradient(135deg, #f4a259 0%, #e76f51 50%, #9c3d2c 100%);
-    background-attachment: fixed; /* gradient stays put while scrolling */
+    background-attachment: fixed; /* stays put while scrolling */
+}
+
+/* Page container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff6e9;
+    border-left: 6px solid #d9622b;
+    border-right: 6px solid #d9622b;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35); /* soft shadow  */
+    min-height: 100vh;
 }
