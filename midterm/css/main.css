@@ -197,3 +197,19 @@ footer {
     padding: 0 30px 20px;
     font-size: 14px;
 }
+/* Small screens  */
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 36px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    /* on small screens, the image goes full width above the text instead of beside it */
+    .article-img {
+        float: none;
+        width: 100%;
+    }
+}
