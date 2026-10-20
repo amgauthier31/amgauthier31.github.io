@@ -66,3 +66,21 @@ h2 {
     color: var(--white);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
 }
+/*  Navigation  */
+/* links in a row */
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--peach);
+    border-bottom: 4px solid var(--pumpkin);
+}
+
+/* link has a divider between them */
+nav li {
+    flex: 1;
+    margin: 4px 0;
+    text-align: center;
+    border-right: 2px solid var(--pumpkin);
+}
