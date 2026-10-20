@@ -25,3 +25,13 @@ body {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.35); /* soft shadow  */
     min-height: 100vh;
 }
+/* headings */
+h2 {
+    color: #c8501e;
+}
+
+/*   Header */
+/* title sit on top of the image */
+.hero {
+    position: relative;
+}
