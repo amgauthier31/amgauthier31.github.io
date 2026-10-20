@@ -32,3 +32,17 @@ body {
     border: solid var(--pumpkin);
     border-width: 0 6px;     /* borders on the left and right */
 }
+
+/* all section headings */
+h2 {
+    margin: 20px 0 15px;
+    font-size: 28px;
+    font-weight: normal;
+    color: var(--pumpkin);
+}
+
+/* Header */
+/* title sit on top of the image */
+.hero {
+    position: relative;
+}
