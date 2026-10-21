@@ -142,7 +142,7 @@ label {
     font-size: 17px;
 }
 
-/* white text boxes */
+/* white text boxes for email  */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -162,7 +162,7 @@ fieldset {
 legend {
     font-size: 20px;
 }
-/* labels and radios */
+/* labels and radios inline */
 fieldset label {
     display: inline;
 }
@@ -172,7 +172,7 @@ input[type="radio"] {
     accent-color: var(--pumpkin);
 }
 
-/* outlined SEND button */
+/* outlined send button */
 input[type="submit"] {
     display: block;
     margin-top: 15px;
@@ -191,7 +191,7 @@ input[type="submit"]:hover {
 }
 
 /*  Footer */
-/* copyright */
+/* copyright logo */
 footer {
     text-align: right;
     padding: 0 30px 20px;
