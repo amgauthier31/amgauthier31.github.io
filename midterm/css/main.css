@@ -1,7 +1,7 @@
 /* Midterm - Fall Protein Muffins */
 
 /*  Colours*/
-/* all colors */
+/* all colors save  */
 :root {
     --pumpkin: #d9622b;   /* borders, buttons, headings */
     --cream: #fff6e9;     /* page background */
@@ -25,6 +25,7 @@ body {
     background: linear-gradient(135deg, #f4a259, #9c3d2c) fixed;
 }
 
+/* center cream page box */
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -48,7 +49,7 @@ h2 {
 }
 
 .hero img {
-    display: block;          /* gap under image */
+    display: block;          /* removes gap under image */
     width: 100%;
     height: 320px;
     object-fit: cover;      
@@ -142,7 +143,7 @@ label {
     font-size: 17px;
 }
 
-/* white text boxes for email  */
+/* white text boxes for email, name and messsages  */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -191,7 +192,7 @@ input[type="submit"]:hover {
 }
 
 /*  Footer */
-/* copyright logo */
+/* copyright logo on the right */
 footer {
     text-align: right;
     padding: 0 30px 20px;
